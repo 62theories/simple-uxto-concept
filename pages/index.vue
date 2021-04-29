@@ -488,7 +488,9 @@ export default {
                   });
                 });
                 return ret;
-              }, 0) - amount
+              }, 0) -
+              amount -
+              fee
           }
         ];
         this.indexToAssign = this.indexToAssign + 2;
